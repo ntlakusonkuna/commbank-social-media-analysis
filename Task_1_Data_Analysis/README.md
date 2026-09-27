@@ -82,10 +82,7 @@ Example formula:
 
 ```excel
 =SUMIFS(supermarket_transactions!H:H,supermarket_transactions!F:F,"apple",supermarket_transactions!J:J,"cash")
-
-This formula calculates the total quantity where the product is apple and the payment method is cash.
-
-**Question 2: How Much Was Spent on Apples Using Cash?**
+Question 2: How Much Was Spent on Apples Using Cash?
 
 The second question was to determine the total amount spent on apples where cash was used as the payment method.
 
@@ -103,7 +100,7 @@ This represents the total value of cash transactions involving apples.
 
 The analysis demonstrated how transaction values can be filtered according to specific product and payment conditions.
 
-**Question 3: How Much Did Non-Members Spend at the Bakershire Store?**
+Question 3: How Much Did Non-Members Spend at the Bakershire Store?
 
 The third question was to determine the total amount spent by non-member customers at the Bakershire store across all payment methods.
 
