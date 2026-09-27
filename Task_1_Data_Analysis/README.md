@@ -1,6 +1,5 @@
-# Task 1: Supermarket Transaction Analysis
-
-## Overview
+Task 1: Supermarket Transaction Analysis
+Overview
 
 The first task involved analysing a supermarket transaction dataset using Microsoft Excel.
 
@@ -8,80 +7,72 @@ The purpose of the task was to use transaction data to answer specific business 
 
 The analysis focused on products, quantities, transaction amounts, stores, payment methods, and customer types.
 
----
-
-## Dataset
+Dataset
 
 The supermarket transaction dataset contained 50,783 transaction records and 12 columns.
 
 The dataset included information relating to:
 
-- Products
-- Quantity
-- Unit price
-- Total transaction amount
-- Store
-- Payment method
-- Customer type
-- Transaction date
-- Transaction time
-- Other transaction-related information
+Products
+Quantity
+Unit price
+Total transaction amount
+Store
+Payment method
+Customer type
+Transaction date
+Transaction time
+Other transaction-related information
 
 The dataset was reviewed before analysis to understand its structure and identify the fields required to answer the questions.
 
 No missing values were identified in the dataset.
 
----
-
-## Objectives
+Objectives
 
 The main objectives of the task were to:
 
-- Explore the supermarket transaction dataset.
-- Understand the structure and contents of the data.
-- Use Microsoft Excel to analyse transaction records.
-- Apply conditional formulas to answer business questions.
-- Calculate quantities and spending based on specific conditions.
-- Extract useful information from the transaction data.
-- Demonstrate practical data analysis skills using Excel.
-
----
-
-## Analysis Approach
+Explore the supermarket transaction dataset.
+Understand the structure and contents of the data.
+Use Microsoft Excel to analyse transaction records.
+Apply conditional formulas to answer business questions.
+Calculate quantities and spending based on specific conditions.
+Extract useful information from the transaction data.
+Demonstrate practical data analysis skills using Excel.
+Analysis Approach
 
 The analysis was completed using Microsoft Excel.
 
 The following approach was used:
 
-1. Reviewed the dataset and its columns.
-2. Checked the number of transaction records.
-3. Checked the dataset for missing values.
-4. Identified the fields required for each question.
-5. Applied filters and conditional calculations.
-6. Used the `SUMIFS` function to calculate results based on multiple conditions.
-7. Reviewed the results to ensure that the calculations answered the required questions.
-
----
-
-## Question 1: How Many Apples Were Purchased Using Cash?
+Reviewed the dataset and its columns.
+Checked the number of transaction records.
+Checked the dataset for missing values.
+Identified the fields required for each question.
+Applied filters and conditional calculations.
+Used the SUMIFS function to calculate results based on multiple conditions.
+Reviewed the results to ensure that the calculations answered the required questions.
+Question 1: How Many Apples Were Purchased Using Cash?
 
 The first question was to determine the total quantity of apples purchased using cash.
 
 The analysis used two conditions:
 
-- Product: Apple
-- Payment method: Cash
+Product: Apple
+Payment method: Cash
 
 The result was:
 
-**117 apples**
+117 apples
 
-The `SUMIFS` function was used to add the quantity of apples where the payment method was cash.
+The SUMIFS function was used to add the quantity of apples where the payment method was cash.
 
 Example formula:
 
-```excel
 =SUMIFS(supermarket_transactions!H:H,supermarket_transactions!F:F,"apple",supermarket_transactions!J:J,"cash")
+
+This formula calculates the total quantity where the product is apple and the payment method is cash.
+
 Question 2: How Much Was Spent on Apples Using Cash?
 
 The second question was to determine the total amount spent on apples where cash was used as the payment method.
