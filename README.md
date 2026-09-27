@@ -1,19 +1,17 @@
-# Commonwealth Bank Social Media Data Analysis
+# CBA Data Aggregation and Analysis
 
 ## Project Overview
 
-This project was completed as part of a data analytics project for InsightSpark, using Commonwealth Bank social media and customer data.
+This project was completed as part of a data aggregation and analysis project for CBA.
 
-The project focused on understanding how data can be analysed, anonymised, structured, and prepared for business decision-making.
+The project involved working with different types of data and applying practical data analytics techniques to extract useful information, protect customer data, propose analytical approaches, and design a structured database.
 
 The project consisted of four tasks:
 
-1. Data Analysis
+1. Supermarket Transaction Analysis
 2. Data Anonymisation
-3. Proposed Data Analysis Approaches
-4. Database Design
-
-The project demonstrates practical skills in data analysis, data privacy, data management, database design, and business-focused reporting.
+3. Propose Data Analysis Approaches
+4. Designing a Database
 
 ---
 
@@ -21,59 +19,53 @@ The project demonstrates practical skills in data analysis, data privacy, data m
 
 The main objectives of the project were to:
 
-- Analyse social media data related to Commonwealth Bank.
-- Identify customer topics, sentiment, engagement, and potential pain points.
+- Analyse transaction data to identify useful business information.
 - Apply data anonymisation techniques to protect customer information.
-- Propose ways that social media data could support business decision-making.
+- Propose ways of analysing social media data to generate business insights.
 - Design a structured database for storing social media information.
-- Demonstrate how unstructured and sensitive data can be transformed into useful business information.
+- Demonstrate practical data analysis and data management skills.
 
 ---
 
 ## Tasks Completed
 
-### Task 1: Data Analysis
+### Task 1: Supermarket Transaction Analysis
 
-The first task focused on analysing Commonwealth Bank social media data.
+The first task involved analysing supermarket transaction data to answer specific business questions using spreadsheet-based analysis.
 
-The analysis examined areas such as:
+The analysis included:
 
-- Social media topics
-- Customer sentiment
-- Engagement
-- Customer intent
-- Customer pain points
-- Posts requiring a response
-- Relationships between social media activity and engagement
-
-The analysis was used to identify patterns that could support marketing, customer service, fraud prevention, and product development.
+- Filtering transaction records.
+- Calculating transaction totals.
+- Using conditional formulas.
+- Analysing products and payment methods.
+- Comparing customer spending.
+- Extracting information from the transaction dataset.
 
 ---
 
 ### Task 2: Data Anonymisation
 
-The second task focused on protecting customer privacy.
+The second task focused on protecting customer privacy while retaining useful information for analysis.
 
-A customer dataset containing personal and sensitive information was reviewed and transformed into an anonymised dataset.
+The process included:
 
-The anonymisation process included:
-
-- Removing direct personal identifiers.
-- Replacing customer IDs with synthetic identifiers.
+- Removing direct identifiers.
+- Creating synthetic customer IDs.
 - Converting registration dates into registration years.
 - Grouping ages into age bands.
 - Grouping salaries into salary bands.
 - Removing sensitive credit card information.
 
-The final dataset was designed to retain useful information for analysis while reducing exposure of individual customer information.
+The final anonymised dataset retained useful analytical information without exposing unnecessary personal or sensitive information.
 
 ---
 
-### Task 3: Proposed Data Analysis Approaches
+### Task 3: Propose Data Analysis Approaches
 
-The third task involved preparing a proposal explaining how Commonwealth Bank social media data could enrich an existing business database.
+The third task involved proposing how Commonwealth Bank social media data could be analysed and combined with existing business data.
 
-The proposal covered:
+The proposal considered:
 
 - Topic and theme analysis
 - Sentiment analysis
@@ -82,22 +74,19 @@ The proposal covered:
 - Customer pain-point analysis
 - Customer response prioritisation
 - Combining social media data with existing business data
-- Marketing and customer service applications
+- Marketing
+- Customer service
 - Fraud prevention
 - Product development
 - Strategic decision-making
 
-The proposed approach follows the general process:
-
-**Collect → Clean → Classify → Analyse → Identify Trends → Combine with Business Data → Generate Insights**
-
 ---
 
-### Task 4: Database Design
+### Task 4: Designing a Database
 
-The fourth task focused on designing a database structure for storing Commonwealth Bank social media information.
+The fourth task involved designing a database structure for storing Commonwealth Bank social media information.
 
-The proposed database separates information into different subject-based tables, including:
+The proposed structure included tables for:
 
 - Users
 - Posts
@@ -109,9 +98,7 @@ The proposed database separates information into different subject-based tables,
 - Topics
 - Post Topics
 
-Primary keys and foreign keys were identified, and relationships between the tables were defined.
-
-The design supports data accuracy, reduces unnecessary duplication, and allows the information to be used for reporting and analysis.
+Primary keys, foreign keys, and relationships between the tables were also identified.
 
 ---
 
@@ -119,25 +106,24 @@ The design supports data accuracy, reduces unnecessary duplication, and allows t
 
 - Data Analysis
 - Data Cleaning
+- Excel
 - Data Anonymisation
 - Data Privacy
-- Exploratory Data Analysis
-- Sentiment Analysis
 - Social Media Analytics
+- Sentiment Analysis
 - Database Design
 - Data Modelling
-- Business Intelligence
-- Data Visualisation
+- Business Analysis
 - Analytical Reporting
-- Business Problem Solving
+- Data Management
 
 ---
 
 ## Project Outcome
 
-The project demonstrated how raw and sensitive data can be transformed into structured information that can support business decisions.
+The project demonstrated how different types of data can be analysed, protected, structured, and transformed into useful information for business decision-making.
 
-It also demonstrated the importance of protecting personal information while maintaining enough useful information for analysis.
+It also demonstrated the importance of balancing data usefulness with privacy and responsible data management.
 
 ---
 
